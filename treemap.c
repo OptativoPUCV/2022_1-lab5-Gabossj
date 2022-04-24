@@ -94,6 +94,16 @@ void eraseTreeMap(TreeMap * tree, void* key){
 
 
 Pair * searchTreeMap(TreeMap * tree, void* key) {
+
+    TreeNode * auxTree = (TreeNode*) malloc(sizeof(TreeNode));
+    auxTree = tree -> root;
+    tree -> current = auxTree;
+    
+
+
+
+
+
     return NULL;
 }
 
