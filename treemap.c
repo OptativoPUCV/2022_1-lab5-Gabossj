@@ -98,12 +98,24 @@ Pair * searchTreeMap(TreeMap * tree, void* key) {
     TreeNode * auxTree = (TreeNode*) malloc(sizeof(TreeNode));
     auxTree = tree -> root;
     tree -> current = auxTree;
+
+    do{
+        if(is_equal(tree, key, auxTree -> pair -> key) == 1){
+            tree -> current = auxTree;
+            return auxTree -> pair;
+        }
+        else{
+            if(tree -> lower_than(key, auxTree-> pair ->key) == 1){
+                auxTree = tree -> current -> left;
+                tree -> current -> left = auxTree;
+            }
+            else{
+                auxTree = tree -> current -> right;
+                tree -> current -> right = auxTree;
+            }
+        }
+    }while (auxTree);
     
-
-
-
-
-
     return NULL;
 }
 

@@ -26,3 +26,10 @@ Sun Apr 24 14:59:53 HSP 2022:
  tests:  6|6
 total_score: 15/70
 101a48b
+Sun Apr 24 16:18:38 HSP 2022: 
+ treemap.c | 20 ++++++++++++++++----
+ 1 file changed, 16 insertions(+), 4 deletions(-)
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file a.out: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation failed
+8ce4f1e
