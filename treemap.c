@@ -111,7 +111,7 @@ Pair * searchTreeMap(TreeMap * tree, void* key) {
             }
             else{
                 auxTree = tree -> current -> right;
-                tree -> current -> right = auxTree;
+                tree -> current = auxTree;
             }
         }
     }while (auxTree);

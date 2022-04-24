@@ -33,3 +33,9 @@ c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot ope
 collect2.exe: error: ld returned 1 exit status
 Compilation failed
 8ce4f1e
+Sun Apr 24 16:19:58 HSP 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  13|5
+total_score: 25/70
+6926f7d
